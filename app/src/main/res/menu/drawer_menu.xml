@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pesan"
+            android:icon="@drawable/ic_pesan"
+            android:title="@string/pemesanan" />
+        <item
+            android:id="@+id/nav_promo"
+            android:icon="@drawable/ic_promo"
+            android:title="@string/promo" />
+        <item
+            android:id="@+id/nav_whislist"
+            android:icon="@drawable/ic_whislist"
+            android:title="@string/whislist" />
+        <item
+            android:id="@+id/nav_kontribusi"
+            android:icon="@drawable/ic_kontribusi"
+            android:title="@string/kontribusi_anda" />
+        <item
+            android:id="@+id/nav_daftar"
+            android:icon="@drawable/ic_daftar"
+            android:title="@string/daftarkan_properti_anda" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/ajak_teman_untuk_jadi_host" />
+        <item
+            android:id="@+id/nav_kupon"
+            android:icon="@drawable/ic_kupon"
+            android:title="@string/kode_kupon_saya" />
+        <item
+            android:id="@+id/nav_gift"
+            android:icon="@drawable/ic_gift"
+            android:title="@string/gift_card" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item android:title="@string/pusat_bantuan" />
+
+            <item android:title="@string/bagi" />
+
+            <item android:title="@string/beri_masukan_tentang_app" />
+        </menu>
+
+    </item>
+
+</menu>
